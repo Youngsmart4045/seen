@@ -1,0 +1,173 @@
+.first{
+    margin: 10% 15px 0 10px;
+    padding-bottom: 9px;
+}
+
+.top{
+    border-top: 3px solid red;
+    border-bottom: 1px solid gray
+}
+
+#float{
+    float: right;
+}
+
+li{
+   list-style-type: none;
+   display: inline-block;
+}
+
+.more{
+    font-size: 16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10px;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    line-height: 90px;
+    font-size: 16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.active{
+    background-color: rgba(0,0,0,.05);  
+    padding: 30px 15px 24px 10px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.hover:hover{
+    background-color: rgba(0,0,0,.05);
+    padding: 30px 15px 24px 10px;
+    color: red;
+    border-bottom: 2px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hover:hover{
+    color:red;
+}
+
+.line{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.line::after{
+    content: " ";
+    height:3px;
+    flex-grow: 1;
+    background: rgb(241, 239, 239);
+    /* min-width:10%; */
+    margin: auto;
+    margin-right: 72%;
+    margin-left: 1.5%;
+    padding: 1.2px;
+}
+
+.container1{
+    margin-left: 6%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.a{
+    text-decoration: none;
+    color: red;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.imagetext {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ee{
+    margin-top: 20px;
+}
+
+.cc{
+    font-size: 13px;
+    margin-left: 25px;
+    color: rgb(160, 157, 157);
+   }
+
+#dd{
+    text-align: center;
+    margin-top: 11%;
+   }
+
+.container2{
+    margin-left: 6%;
+    margin-top: 40px;
+    position: relative;
+/* border: 1px solid green; */
+}
+
+.ff a{
+    text-decoration: none;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    color:rgb(31, 30, 30);
+}
+
+#hover:hover{
+color: red;
+}
+
+.date{
+    font-size: 13px;
+    color: rgb(160, 157, 157);
+   }
+
+.gg {
+    position: absolute;
+    left: 6%;
+    bottom: 20%;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 25px;
+}
+.hh {
+    position: absolute;
+    left: 6%;
+    bottom: 0px;
+    max-width: 50%;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.container3{
+    margin-left: 6%;
+    margin-top: 20px;
+    position: relative;   
+}
+
+.lin{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.lin::after{
+    content: " ";
+    height:3px;
+    flex-grow: 1;
+    background: rgb(241, 239, 239);
+    /* min-width:10%; */
+    margin: auto;
+    margin-right: 72%;
+    margin-left: 1.5%;
+    padding: 1.2px;
+}
